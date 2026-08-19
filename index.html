@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Birthday Geetha Sravani ❤️</title>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Pacifico&family=Patrick+Hand&family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+    --red:#a90038;
+    --darkred:#83002b;
+    --cream:#fff9ed;
+    --paper:#fffdf5;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    background:#0d0e13;
+    font-family:Poppins,sans-serif;
+    color:var(--red);
+}
+
+/* =========================
+   NORMAL PAGES
+========================= */
+
+.page{
+    display:none;
+    min-height:100vh;
+    padding:22px 16px;
+    align-items:center;
+    justify-content:center;
+    background:linear-gradient(135deg,#fdf3e2,#fffaf0);
+}
+
+.page.active{
+    display:flex;
+}
+
+.card{
+    width:min(920px,96vw);
+    min-height:720px;
+    padding:18px;
+    border-radius:18px;
+
+    background-color:white;
+
+    background-image:
+    linear-gradient(
+        45deg,
+        rgba(169,0,56,.12) 25%,
+        transparent 25%,
+        transparent 75%,
+        rgba(169,0,56,.12) 75%
+    ),
+    linear-gradient(
+        45deg,
+        rgba(169,0,56,.12) 25%,
+        transparent 25%,
+        transparent 75%,
+        rgba(169,0,56,.12) 75%
+    );
+
+    background-size:30px 30px;
+    background-position:0 0,15px 15px;
+
+    box-shadow:0 20px 55px rgba(0,0,0,.25);
+}
+
+.paper{
+    position:relative;
+    min-height:680px;
+    padding:45px 34px 35px;
+
+    border-radius:12px;
+    border:2px solid #ead5bd;
+
+    background:var(--cream);
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+
+    overflow:hidden;
+}
+
+.counter{
+    position:absolute;
+    top:10px;
+    right:16px;
+    font-size:11px;
+    color:#9c6b75;
+}
+
+h1,
+h2{
+    font-family:"DM Serif Display",serif;
+    margin:0;
+    text-align:center;
+    color:var(--red);
+}
+
+h1{
+    font-size:clamp(52px,9vw,92px);
+    line-height:.82;
+}
+
+h2{
+    font-size:clamp(34px,6vw,58px);
+    line-height:1.05;
+}
+
+.script{
+    font-family:"Patrick Hand",cursive;
+    font-size:28px;
+    line-height:1.3;
+}
+
+.small{
+    max-width:650px;
+    text-align:center;
+    line-height:1.75;
+    font-size:15px;
+    color:#70213c;
+}
+
+.heart{
+    font-size:48px;
+    animation:pulse 1.2s infinite;
+}
+
+@keyframes pulse{
+    50%{
+        transform:scale(1.15);
+    }
+}
+
+/* =========================
+   PHOTOS
+========================= */
+
+.photo{
+    width:min(330px,80vw);
+    height:235px;
+
+    border:7px solid white;
+    border-radius:9px;
+
+    object-fit:cover;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.15);
+
+    transform:rotate(-1deg);
+}
+
+/* =========================
+   BUTTONS
+========================= */
+
+.btn{
+    border:0;
+    border-radius:999px;
+
+    padding:11px 22px;
+    margin:6px;
+
+    background:var(--red);
+    color:white;
+
+    font-weight:700;
+    font-size:13px;
+
+    cursor:pointer;
+
+    box-shadow:0 3px 0 var(--darkred);
+
+    transition:.15s;
+}
+
+.btn:hover{
+    transform:translateY(-2px);
+}
+
+.btn.light{
+    background:white;
+    color:var(--red);
+    border:2px solid var(--red);
+    box-shadow:none;
+}
+
+.btn-row{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:12px;
+}
+
+/* =========================
+   GIFTS
+========================= */
+
+.gifts{
+    display:flex;
+    gap:22px;
+    justify-content:center;
+    margin:20px 0;
+}
+
+.gift{
+    width:110px;
+    height:110px;
+
+    border:0;
+    background:transparent;
+
+    font-size:72px;
+
+    cursor:pointer;
+    transition:.2s;
+}
+
+.gift:hover{
+    transform:translateY(-7px) rotate(-4deg);
+}
+
+/* =========================
+   CAKE
+========================= */
+
+.cake{
+    font-size:100px;
+    margin:15px;
+}
+
+/* =========================
+   LETTER
+========================= */
+
+.note{
+    width:min(700px,100%);
+
+    background:var(--paper);
+
+    border:1px dashed #c77a8f;
+    border-radius:10px;
+
+    padding:22px 25px;
+
+    text-align:left;
+
+    line-height:1.75;
+    font-size:14px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.note p{
+    margin:0 0 13px;
+}
+
+.note p:last-child{
+    margin:0;
+}
+
+/* =========================
+   FULL SCREEN MEMORIES
+========================= */
+
+.memories-page{
+    display:none;
+
+    min-height:100vh;
+    width:100%;
+
+    position:relative;
+    overflow:hidden;
+
+    background:
+        radial-gradient(
+            circle at center,
+            #3c2030,
+            #110c12 75%
+        );
+
+    color:white;
+
+    align-items:center;
+    justify-content:center;
+
+    padding:0;
+}
+
+.memories-page.active{
+    display:flex;
+}
+
+.memory-photo-container{
+    position:relative;
+
+    width:100%;
+    height:100vh;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    padding:65px 75px 80px;
+}
+
+.memory-photo{
+    max-width:100%;
+    max-height:calc(100vh - 145px);
+
+    width:auto;
+    height:auto;
+
+    aspect-ratio:9 / 16;
+
+    object-fit:contain;
+
+    border-radius:14px;
+    border:6px solid white;
+
+    background:#241821;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.6);
+
+    user-select:none;
+    -webkit-user-drag:none;
+
+    transition:
+        opacity .25s ease,
+        transform .25s ease;
+}
+
+.memory-photo.fade{
+    opacity:0;
+    transform:scale(.97);
+}
+
+.memory-title{
+    position:absolute;
+
+    top:18px;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    z-index:5;
+
+    color:white;
+
+    font-family:"DM Serif Display",serif;
+
+    font-size:clamp(30px,5vw,50px);
+
+    text-shadow:0 3px 15px rgba(0,0,0,.6);
+
+    white-space:nowrap;
+}
+
+.memory-number{
+    position:absolute;
+
+    top:27px;
+    right:25px;
+
+    color:white;
+
+    font-size:13px;
+
+    background:rgba(0,0,0,.45);
+
+    padding:7px 12px;
+
+    border-radius:999px;
+
+    backdrop-filter:blur(8px);
+
+    z-index:5;
+}
+
+/* ARROWS */
+
+.memory-arrow{
+    position:absolute;
+
+    top:50%;
+    transform:translateY(-50%);
+
+    width:55px;
+    height:55px;
+
+    border-radius:50%;
+
+    border:1px solid rgba(255,255,255,.4);
+
+    background:rgba(0,0,0,.4);
+
+    color:white;
+
+    font-size:32px;
+
+    cursor:pointer;
+
+    z-index:10;
+
+    backdrop-filter:blur(8px);
+
+    transition:.2s;
+}
+
+.memory-arrow:hover{
+    background:rgba(255,255,255,.2);
+
+    transform:
+        translateY(-50%)
+        scale(1.08);
+}
+
+.memory-prev{
+    left:18px;
+}
+
+.memory-next{
+    right:18px;
+}
+
+/* DOTS */
+
+.memory-bottom{
+    position:absolute;
+
+    left:50%;
+    bottom:18px;
+
+    transform:translateX(-50%);
+
+    display:flex;
+    align-items:center;
+
+    gap:8px;
+
+    z-index:10;
+}
+
+.memory-dot{
+    width:7px;
+    height:7px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.4);
+
+    cursor:pointer;
+
+    transition:.2s;
+}
+
+.memory-dot.active{
+    width:25px;
+
+    border-radius:10px;
+
+    background:white;
+}
+
+/* NEXT */
+
+.memory-back{
+    position:absolute;
+
+    left:18px;
+    bottom:18px;
+
+    z-index:10;
+
+    border:1px solid rgba(255,255,255,.4);
+
+    background:rgba(0,0,0,.4);
+
+    color:white;
+
+    border-radius:999px;
+
+    padding:9px 15px;
+
+    cursor:pointer;
+
+    backdrop-filter:blur(8px);
+}
+
+/* =========================
+   CONFETTI
+========================= */
+
+#confetti{
+    position:fixed;
+
+    inset:0;
+
+    pointer-events:none;
+
+    z-index:100;
+
+    overflow:hidden;
+}
+
+.confetti-piece{
+    position:absolute;
+
+    width:8px;
+    height:14px;
+
+    animation:fall 3.5s linear forwards;
+}
+
+@keyframes fall{
+    to{
+        transform:
+            translateY(110vh)
+            rotate(720deg);
+
+        opacity:0;
+    }
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.navigation{
+    position:fixed;
+
+    left:50%;
+    bottom:12px;
+
+    transform:translateX(-50%);
+
+    z-index:20;
+
+    display:flex;
+    gap:5px;
+
+    background:#fffaf0dd;
+
+    border:1px solid #e5c8b7;
+
+    border-radius:999px;
+
+    padding:4px;
+
+    box-shadow:0 6px 20px rgba(0,0,0,.12);
+
+    backdrop-filter:blur(8px);
+}
+
+.navigation button{
+    border:0;
+
+    background:transparent;
+
+    color:var(--red);
+
+    padding:7px 11px;
+
+    border-radius:999px;
+
+    font-weight:700;
+
+    cursor:pointer;
+}
+
+.navigation button:hover{
+    background:#f4ded7;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:650px){
+
+    .card{
+        min-height:90vh;
+        padding:10px;
+    }
+
+    .paper{
+        min-height:calc(90vh - 20px);
+        padding:40px 14px 50px;
+    }
+
+    .gift{
+        width:80px;
+        height:80px;
+        font-size:55px;
+    }
+
+    .note{
+        font-size:13px;
+        padding:17px;
+    }
+
+    .memory-photo-container{
+        padding:65px 12px 75px;
+    }
+
+    .memory-photo{
+        max-width:94vw;
+        max-height:calc(100vh - 145px);
+
+        border-width:5px;
+        border-radius:12px;
+    }
+
+    .memory-title{
+        top:15px;
+        font-size:30px;
+    }
+
+    .memory-number{
+        top:19px;
+        right:12px;
+        font-size:11px;
+    }
+
+    .memory-arrow{
+        width:45px;
+        height:45px;
+        font-size:27px;
+    }
+
+    .memory-prev{
+        left:8px;
+    }
+
+    .memory-next{
+        right:8px;
+    }
+
+    .memory-back{
+        left:10px;
+        bottom:15px;
+        font-size:12px;
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =========================
+     CONFETTI
+========================= -->
+
+<div id="confetti"></div>
+
+
+<!-- =========================
+     PAGE 1
+========================= -->
+
+<section class="page active">
+
+<div class="card">
+
+<div class="paper">
+
+<div class="counter">1 / 9</div>
+
+<div class="heart">❤️</div>
+
+<h2>
+I have made<br>
+something for you...
+</h2>
+
+<p class="script">
+Do you wanna see it?
+</p>
+
+<div class="btn-row">
+
+<button class="btn" onclick="goToPage(2)">
+YES ❤️
+</button>
+
+<button class="btn light" onclick="goToPage(2)">
+NO 😭
+</button>
+
+</div>
+
+</div>
+</div>
+
+</section>
+
+
+<!-- =========================
+     PAGE 2
+========================= -->
+
+<section class="page">
+
+<div class="card">
+
+<div class="paper">
+
+<div class="counter">2 / 9</div>
+
+<h2>
+HOW DARE YOU!? 😂
+</h2>
+
+<img
+class="photo"
+src="C:\Users\purva\OneDrive\Documents\geetha\bae\bae\photo1.jpeg"
+alt="Geetha"
+>
+
+<p class="script">
+You really clicked NO? 😤
+</p>
+
+<button class="btn" onclick="goToPage(3)">
+TRY AGAIN →
+</button>
+
+</div>
+</div>
+
+</section>
+
+
+<!-- =========================
+     PAGE 3
+========================= -->
+
+<section class="page">
+
+<div class="card">
+
+<div class="paper">
+
+<div class="counter">3 / 9</div>
+
+<h2>
+Are you really excited? ❤️
+</h2>
+
+<img
+class="photo"
+src="C:\Users\purva\OneDrive\Documents\geetha\bae\bae\photo2.jpeg"
+alt="Geetha"
+>
+
+<p class="script">
+Because I am! 🥹
+</p>
+
+<div>
+
+<button class="btn" onclick="goToPage(4)">
+YES ❤️
+</button>
+
+<button class="btn" onclick="goToPage(4)">
+YESSS ❤️
+</button>
+
+</div>
+
+</div>
+</div>
+
+</section>
+
+
+<!-- =========================
+     PAGE 4
+========================= -->
+
+<section class="page">
+
+<div class="card">
+
+<div class="paper">
+
+<div class="counter">4 / 9</div>
+
+<h2>
+Each gift has<br>
+something for you 🎁
+</h2>
+
+<p class="small">
+Click each gift. Don't skip any! 👀
+</p>
+
+<div class="gifts">
+
+<button class="gift" onclick="showGift(1)">
+🎁
+</button>
+
+<button class="gift" onclick="showGift(2)">
+🎁
+</button>
+
+<button class="gift" onclick="showGift(3)">
+🎁
+</button>
+
+</div>
+
+<p id="giftText" class="script">
+Pick one... ❤️
+</p>
+
+<button class="btn" onclick="goToPage(5)">
+Next →
+</button>
+
+</div>
+</div>
+
+</section>
+
+
+<!-- =========================
+     PAGE 5
+========================= -->
+
+<section class="page">
+
+<div class="card">
+
+<div class="paper">
+
+<div class="counter">5 / 9</div>
+
+<h1>
+Happy<br>
+Birthday
+</h1>
+
+<p
+style="
+font-family:Pacifico,cursive;
+font-size:28px;
+margin:15px;
+"
+>
+Geetha Sravani ❤️
+</p>
+
+<img
+class="photo"
+src="C:\Users\purva\OneDrive\Documents\geetha\bae\bae\photo3.jpeg"
+alt="Birthday photo"
+>
+
+<p class="small">
+
+From 7th class until now...
+
+B.Tech also ended,
+
+but somehow we're still continuing this love. 🥹❤️
+
+</p>
+
+<button
+class="btn"
+onclick="goToPage(6);celebrate()"
+>
+Open your surprise ✨
+</button>
+
+</div>
+</div>
+
+</section>
+
+
+<!-- =========================
+     PAGE 6
+========================= -->
+
+<section class="page">
+
+<div class="card">
+
+<div class="paper">
+
+<div class="counter">6 / 9</div>
+
+<h2>
+MAKE A WISH
+</h2>
+
+<div class="cake">
+🎂
+</div>
+
+<img
+class="photo"
+src="C:\Users\purva\OneDrive\Documents\geetha\bae\bae\photo4.jpeg"
+alt="Birthday memory"
+>
+
+<p class="script">
+
+Close your eyes...<br>
+make one beautiful wish. ✨
+
+</p>
+
+<p class="small">
+
+I hope this year brings you
+everything you've been waiting for.
+
+</p>
+
+<button
+class="btn"
+onclick="goToPage(7)"
+>
+Wish made ❤️
+</button>
+
+</div>
+</div>
+
+</section>
+
+
+<!-- =========================
+     PAGE 7
+     FULL SCREEN MEMORIES
+========================= -->
+
+<section
+class="memories-page"
+id="memoriesPage"
+>
+
+<div class="memory-title">
+Our Memories ❤️
+</div>
+
+<div
+class="memory-number"
+id="memoryNumber"
+>
+1 / 6
+</div>
+
+<div
+class="memory-photo-container"
+id="memorySwipeArea"
+>
+
+<img
+id="memoryPhoto"
+class="memory-photo"
+src="C:\Users\purva\OneDrive\Documents\geetha\bae\bae\photo5.jpeg"
+alt="Memory 1"
+>
+
+</div>
+
+<button
+class="memory-arrow memory-prev"
+onclick="previousMemory()"
+>
+‹
+</button>
+
+<button
+class="memory-arrow memory-next"
+onclick="nextMemory()"
+>
+›
+</button>
+
+<button
+class="memory-back"
+onclick="goToPage(8)"
+>
+Next ❤️
+</button>
+
+<div
+class="memory-bottom"
+id="memoryDots"
+>
+</div>
+
+</section>
+
+
+<!-- =========================
+     PAGE 8
+========================= -->
+
+<section class="page">
+
+<div class="card">
+
+<div class="paper">
+
+<div class="counter">8 / 9</div>
+
+<h2>
+My fav person ❤️
+</h2>
+
+<div class="note">
+
+<p>
+What I love most about you is that you always try first.
+Every time we fight, you're the one who tries to talk to me and sort things out.
+</p>
+
+<p>
+From now on, I promise I'll try too.
+I may not be able to tell you everything immediately,
+but I won't just leave like I used to.
+I'll try to talk things out with you.
+</p>
+
+<p>
+You make me jealous because you talk so well with everyone 😂,
+but you're the only person I can truly open up to
+and talk like hell without any worries.
+</p>
+
+<p>
+Our story started in 7th class,
+and B.Tech also ended,
+but we're still here.
+That's something really special to me. ❤️
+</p>
+
+<p>
+And about our dreams together...
+you don't even have clarity yet,
+so think about it quickly! 😂
+My dream is to open a café someday.
+If possible, you can be the cashier
+and take care of the accounts...
+but you don't even know maths,
+so how will you manage? 😭😂
+</p>
+
+</div>
+
+<img
+class="photo"
+src="C:\Users\purva\OneDrive\Documents\geetha\bae\bae\photo9.jpeg"
+alt="Favourite memory"
+style="margin-top:18px"
+>
+
+<button
+class="btn"
+onclick="goToPage(9)"
+>
+Last one ❤️
+</button>
+
+</div>
+</div>
+
+</section>
+
+
+<!-- =========================
+     PAGE 9
+========================= -->
+
+<section class="page">
+
+<div class="card">
+
+<div class="paper">
+
+<div class="counter">9 / 9</div>
+
+<div class="heart">
+💗
+</div>
+
+<h2>
+May all the good things<br>
+you've been waiting for<br>
+finally find you.
+</h2>
+
+<p
+class="script"
+style="max-width:650px;text-align:center"
+>
+
+I just want you to always be happy
+and keep smiling.
+
+At least from this birthday onwards,
+don't cry for every little thing. 🫂❤️
+
+</p>
+
+<p
+class="script"
+style="max-width:650px;text-align:center"
+>
+
+No matter how many fights we have,
+I want our love to stay the same.
+
+Let's always make up,
+come back to each other,
+and keep choosing us. 🫶🏻
+
+</p>
+
+<h2 style="font-size:40px;margin-top:15px">
+
+Happy Birthday, bae! 🎂❤️
+
+</h2>
+
+<p class="script">
+Stay happy.
+Keep smiling.
+Always. ❤️
+</p>
+
+<button
+class="btn"
+onclick="celebrate()"
+>
+Celebrate again 🎉
+</button>
+
+</div>
+</div>
+
+</section>
+
+
+<!-- =========================
+     NAVIGATION
+========================= -->
+
+<div
+class="navigation"
+id="normalNavigation"
+>
+
+<button onclick="previousPage()">
+←
+</button>
+
+<button onclick="goToPage(1)">
+START
+</button>
+
+<button onclick="nextPage()">
+→
+</button>
+
+</div>
+
+
+<script>
+
+/* =========================
+   PAGE NAVIGATION
+========================= */
+
+let currentPage = 1;
+
+const normalPages =
+document.querySelectorAll(".page");
+
+const memoriesPage =
+document.getElementById("memoriesPage");
+
+
+function goToPage(number){
+
+    if(number < 1){
+        number = 1;
+    }
+
+    if(number > 9){
+        number = 9;
+    }
+
+    currentPage = number;
+
+    normalPages.forEach(
+        (page,index)=>{
+
+            page.classList.toggle(
+                "active",
+                index === currentPage - 1
+            );
+
+        }
+    );
+
+    if(number === 7){
+
+        normalPages.forEach(
+            page=>{
+                page.classList.remove("active");
+            }
+        );
+
+        memoriesPage.classList.add("active");
+
+        document.getElementById(
+            "normalNavigation"
+        ).style.display="none";
+
+        resetMemory();
+
+    }
+
+    else{
+
+        memoriesPage.classList.remove("active");
+
+        document.getElementById(
+            "normalNavigation"
+        ).style.display="flex";
+
+    }
+
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
+}
+
+
+function nextPage(){
+    goToPage(currentPage + 1);
+}
+
+
+function previousPage(){
+    goToPage(currentPage - 1);
+}
+
+
+/* =========================
+   GIFTS
+========================= */
+
+function showGift(number){
+
+    const messages = [
+
+        "Gift #1 ❤️ — I hope you always stay happy and keep that beautiful smile.",
+
+        "Gift #2 🫂 — You're the one person I can open up to without any worries.",
+
+        "Gift #3 🫶🏻 — Whatever happens, I want us to keep choosing each other."
+
+    ];
+
+    document.getElementById(
+        "giftText"
+    ).innerText =
+        messages[number - 1];
+}
+
+
+/* =========================
+   MEMORIES
+========================= */
+
+/*
+   IMPORTANT:
+   These are the six memory photos.
+*/
+
+const memories = [
+
+    "file:///C:/Users/purva/OneDrive/Documents/photo5.jpeg",
+    "file:///C:/Users/purva/OneDrive/Documents/photo6.jpeg",
+    "file:///C:/Users/purva/OneDrive/Documents/photo7.jpeg",
+    "file:///C:/Users/purva/OneDrive/Documents/photo8.jpeg",
+    "file:///C:/Users/purva/OneDrive/Documents/photo9.jpeg",
+    "file:///C:/Users/purva/OneDrive/Documents/photo10.jpeg"
+
+];
+
+let memoryIndex = 0;
+
+
+const memoryPhoto =
+document.getElementById(
+    "memoryPhoto"
+);
+
+const memoryNumber =
+document.getElementById(
+    "memoryNumber"
+);
+
+const memoryDots =
+document.getElementById(
+    "memoryDots"
+);
+
+
+/* CREATE DOTS */
+
+for(
+    let i=0;
+    i<memories.length;
+    i++
+){
+
+    const dot =
+        document.createElement("span");
+
+    dot.className =
+        "memory-dot";
+
+    dot.addEventListener(
+        "click",
+        function(){
+
+            showMemory(i);
+
+        }
+    );
+
+    memoryDots.appendChild(dot);
+}
+
+
+/* SHOW MEMORY */
+
+function showMemory(index){
+
+    if(index < 0){
+
+        index =
+            memories.length - 1;
+
+    }
+
+    if(index >= memories.length){
+
+        index = 0;
+
+    }
+
+    memoryIndex = index;
+
+
+    memoryPhoto.classList.add(
+        "fade"
+    );
+
+
+    setTimeout(
+        function(){
+
+            memoryPhoto.src =
+                memories[memoryIndex];
+
+            memoryPhoto.alt =
+                "Memory " +
+                (memoryIndex + 1);
+
+            memoryNumber.innerText =
+                (memoryIndex + 1) +
+                " / " +
+                memories.length;
+
+            memoryPhoto.classList.remove(
+                "fade"
+            );
+
+            updateMemoryDots();
+
+        },
+        180
+    );
+}
+
+
+/* NEXT MEMORY */
+
+function nextMemory(){
+
+    showMemory(
+        memoryIndex + 1
+    );
+
+}
+
+
+/* PREVIOUS MEMORY */
+
+function previousMemory(){
+
+    showMemory(
+        memoryIndex - 1
+    );
+
+}
+
+
+/* UPDATE DOTS */
+
+function updateMemoryDots(){
+
+    const dots =
+        document.querySelectorAll(
+            ".memory-dot"
+        );
+
+    dots.forEach(
+        function(dot,index){
+
+            dot.classList.toggle(
+                "active",
+                index === memoryIndex
+            );
+
+        }
+    );
+}
+
+
+/* RESET */
+
+function resetMemory(){
+
+    memoryIndex = 0;
+
+    memoryPhoto.src =
+        memories[0];
+
+    memoryPhoto.alt =
+        "Memory 1";
+
+    memoryNumber.innerText =
+        "1 / 6";
+
+    updateMemoryDots();
+}
+
+
+/* =========================
+   SWIPE
+========================= */
+
+let touchStartX = 0;
+
+let touchEndX = 0;
+
+
+const swipeArea =
+document.getElementById(
+    "memorySwipeArea"
+);
+
+
+swipeArea.addEventListener(
+    "touchstart",
+    function(event){
+
+        touchStartX =
+            event.touches[0].clientX;
+
+    },
+    {
+        passive:true
+    }
+);
+
+
+swipeArea.addEventListener(
+    "touchend",
+    function(event){
+
+        touchEndX =
+            event.changedTouches[0].clientX;
+
+        const distance =
+            touchEndX - touchStartX;
+
+        if(
+            Math.abs(distance) < 50
+        ){
+            return;
+        }
+
+        if(distance < 0){
+
+            nextMemory();
+
+        }
+        else{
+
+            previousMemory();
+
+        }
+
+    },
+    {
+        passive:true
+    }
+);
+
+
+/* =========================
+   KEYBOARD
+========================= */
+
+document.addEventListener(
+    "keydown",
+    function(event){
+
+        if(
+            !memoriesPage.classList.contains(
+                "active"
+            )
+        ){
+
+            return;
+
+        }
+
+        if(event.key === "ArrowRight"){
+
+            nextMemory();
+
+        }
+
+        if(event.key === "ArrowLeft"){
+
+            previousMemory();
+
+        }
+
+        if(event.key === "Escape"){
+
+            goToPage(8);
+
+        }
+
+    }
+);
+
+
+/* =========================
+   CONFETTI
+========================= */
+
+function celebrate(){
+
+    const container =
+        document.getElementById(
+            "confetti"
+        );
+
+    container.innerHTML = "";
+
+
+    const colors = [
+
+        "#a90038",
+        "#e7a83f",
+        "#6d123c",
+        "#e9bfc8",
+        "#91b795"
+
+    ];
+
+
+    for(
+        let i=0;
+        i<120;
+        i++
+    ){
+
+        const piece =
+            document.createElement("div");
+
+        piece.className =
+            "confetti-piece";
+
+        piece.style.left =
+            Math.random() * 100 +
+            "vw";
+
+        piece.style.top =
+            -Math.random() * 30 +
+            "vh";
+
+        piece.style.animationDelay =
+            Math.random() * 1.5 +
+            "s";
+
+        piece.style.background =
+            colors[
+                Math.floor(
+                    Math.random() *
+                    colors.length
+                )
+            ];
+
+        container.appendChild(
+            piece
+        );
+    }
+
+
+    setTimeout(
+        function(){
+
+            container.innerHTML="";
+
+        },
+        4500
+    );
+}
+
+
+/* INITIAL */
+
+updateMemoryDots();
+
+</script>
+
+</body>
+</html>
